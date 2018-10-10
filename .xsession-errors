@@ -1,0 +1,42 @@
+Xsession: X session started for pi at Fri Aug 31 13:42:21 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:1710): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xarchiver 0.5.2svn-r29673 (©)2005-2008 Giuseppe Torelli
+Xarchiver 0.5.2svn-r29673 (©)2005-2008 Giuseppe Torelli
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 65013 requests (65013 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Xsession: X session started for pi at Fri Aug 31 14:13:40 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:1633): Gtk-WARNING **: Radio group does not contain an action with value '0'
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 22795 requests (22795 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Xsession: X session started for pi at Fri Aug 31 14:30:23 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:1629): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xsession: X session started for pi at Fri Aug 31 14:30:24 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:1644): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xsession: X session started for pi at Fri Aug 31 14:30:07 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:1635): Gtk-WARNING **: Radio group does not contain an action with value '0'
+Xsession: X session started for pi at Fri Aug 31 14:30:23 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+Xsession: X session started for pi at Fri Aug 31 14:30:36 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+Xsession: X session started for pi at Fri Aug 31 14:30:32 UTC 2012
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"

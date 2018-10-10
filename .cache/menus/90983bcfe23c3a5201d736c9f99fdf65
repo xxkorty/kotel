@@ -1,0 +1,308 @@
+1.1
+applications.menu
+14
+D/home/pi/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/pi/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/pi/.config/menus/applications-merged
+F/home/pi/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+-debian-reference-common.desktop
+Debian Reference
+Debian Reference Guide
+debian-reference.png
+
+7
+Debian Reference
+debian-reference
+0
+0
+-pcmanfm.desktop
+File Manager
+Browse the file system and manage the files
+system-file-manager
+
+7
+File Manager
+pcmanfm %U
+2
+0
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+7
+Image Viewer
+gpicview %f
+2
+0
+-leafpad.desktop
+Leafpad
+Simple text editor
+leafpad
+
+7
+Leafpad
+leafpad %f
+0
+0
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+7
+LXTerminal
+lxterminal
+0
+0
+-gksu.desktop
+Root Terminal
+Opens a terminal as the root user, using gksu to ask for the password
+gksu-root-terminal
+
+7
+Root Terminal
+gksu /usr/bin/x-terminal-emulator
+2
+0
+-xarchiver.desktop
+Xarchiver
+A GTK+2 only archive manager
+xarchiver.png
+
+7
+Xarchiver
+xarchiver
+2
+0
+
++Education
+Education
+
+applications-science
+lxde-education.directory
+2
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+7
+Scratch
+scratch %f
+0
+0
+-squeak.desktop
+Squeak
+Programming system and content development tool
+/usr/share/pixmaps/squeak.png
+
+7
+Squeak
+squeak
+0
+0
+
++Internet
+Internet
+Programs for Internet access such as web and e-mail
+applications-internet
+lxde-network.directory
+2
+-dillo.desktop
+Dillo
+Lightweight browser
+dillo
+
+7
+Dillo
+dillo
+0
+0
+-midori.desktop
+Midori
+Lightweight web browser
+midori
+
+7
+Midori
+midori %U
+2
+0
+-midori-private.desktop
+Midori Private Browsing
+Open a new private browsing window
+midori
+
+7
+Midori Private Browsing
+midori --private %U
+2
+0
+-netsurf-gtk.desktop
+NetSurf Web Browser
+Browse the World Wide Web
+netsurf.png
+
+7
+NetSurf Web Browser
+netsurf-gtk %u
+2
+0
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+-idle.desktop
+IDLE
+Integrated Development Environment for Python
+/usr/share/pixmaps/idle.xpm
+
+7
+IDLE
+/usr/bin/idle
+2
+0
+-idle3.desktop
+IDLE 3
+Integrated DeveLopment Environment for Python3
+/usr/share/pixmaps/idle3.xpm
+
+7
+IDLE 3
+/usr/bin/idle3
+2
+0
+-scratch.desktop
+Scratch
+Programming system and content development tool
+scratch
+
+7
+Scratch
+scratch %f
+0
+0
+-squeak.desktop
+Squeak
+Programming system and content development tool
+/usr/share/pixmaps/squeak.png
+
+7
+Squeak
+squeak
+0
+0
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+7
+Task Manager
+lxtask
+2
+0
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+-lxappearance.desktop
+Customise Look and Feel
+Customises look and feel of your desktop and applications
+preferences-desktop-theme
+
+7
+Customise Look and Feel
+lxappearance
+2
+-11
+-lxsession-edit.desktop
+Desktop Session Settings
+Manage applications loaded in desktop session
+xfwm4
+
+7
+Desktop Session Settings
+lxsession-edit
+0
+-15
+-lxinput.desktop
+Keyboard and Mouse
+Configure keyboard, mouse, and other input devices
+input-keyboard
+
+7
+Keyboard and Mouse
+lxinput
+2
+1
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+display
+
+7
+Monitor Settings
+lxrandr
+0
+0
+-obconf.desktop
+Openbox Configuration Manager
+Configure and personalize the Openbox window manager
+obconf
+
+7
+Openbox Configuration Manager
+obconf %f
+2
+0
+-libfm-pref-apps.desktop
+Preferred Applications
+
+preferences-desktop
+
+7
+Preferred Applications
+libfm-pref-apps
+2
+-15
+
+

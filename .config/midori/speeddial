@@ -1,0 +1,19 @@
+
+[settings]
+columns=3
+rows=3
+
+[Dial 2]
+uri=http://learn.adafruit.com
+
+[Dial 1]
+uri=http://learn.adafruit.com/category/raspberry-pi
+title=‪http://learn.adafruit.com/category/raspberry-pi
+
+[Dial 3]
+uri=http://adafruit.com/raspberrypi
+title=‪Raspberry Pi : Adafruit Industries, Unique & fun DIY electronics and kits
+
+[Dial 4]
+uri=http://adafruit.com/raspberrypi
+title=‪Raspberry Pi : Adafruit Industries, Unique & fun DIY electronics and kits
