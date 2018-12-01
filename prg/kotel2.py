@@ -90,7 +90,7 @@ def day_night(tz='Europe/Prague'):
 
     if time_now >= time_day and time_now <= time_night:
         is_day = True
-#        print ("day")
+        print ("day")
         return is_day
 
 #Main code
@@ -120,4 +120,4 @@ while (a is 0):
     print ("outside temp is %d" % read_tmp1())
     print ("desired temp is %d" % get_tmp3())
     print ("diff temp is %d" % temp_dif())
-    time.sleep(320)
+    time.sleep(120)

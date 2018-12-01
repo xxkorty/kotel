@@ -1,9 +1,14 @@
+#!/usr/bin/env python3
+
+
+
 from __future__ import division
 import spidev
 import time
 import RPi.GPIO as GPIO
 import datetime
 import pytz
+import sqlite3
 #preparing the GPIO for manuall switch
 GPIO.setmode(GPIO.BCM)
 #GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -76,6 +81,22 @@ def temp_dif():
 	return tmpdiff;
 
 
+#save temp in SQL database
+
+def log_temperature(tmp02):
+
+    conn=sqlite3.connect('templog.db')
+    curs=conn.cursor()
+
+    curs.execute("INSERT INTO temps values(datetime('now'), (?))", (tmp02,))
+
+    # commit the changes
+    conn.commit()
+
+    conn.close()
+
+
+
 # Determine night or day
 
 def day_night(tz='Europe/Prague'):
@@ -90,7 +111,7 @@ def day_night(tz='Europe/Prague'):
 
     if time_now >= time_day and time_now <= time_night:
         is_day = True
-#        print ("day")
+        print ("day")
         return is_day
 
 #Main code
@@ -120,4 +141,5 @@ while (a is 0):
     print ("outside temp is %d" % read_tmp1())
     print ("desired temp is %d" % get_tmp3())
     print ("diff temp is %d" % temp_dif())
-    time.sleep(320)
+    log_temperature(read_tmp2())
+    time.sleep(120)

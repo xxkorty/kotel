@@ -2,8 +2,6 @@ from __future__ import division
 import spidev
 import time
 import RPi.GPIO as GPIO
-import datetime
-import pytz
 #preparing the GPIO for manuall switch
 GPIO.setmode(GPIO.BCM)
 #GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -14,6 +12,10 @@ GPIO.setup(18, GPIO.OUT)
 #setting PWM
 p = GPIO.PWM(18,100)          #GPIO19 as PWM output, with 100Hz frequency
 p.start(50)                   #generate PWM signal with default 50% duty cycle
+
+
+#desired temp on output
+tmp03 = 55;
 
 #procedures
 def read_tmp1():
@@ -56,42 +58,9 @@ def read_tmp2():
 
 
 
-def get_tmp3():
-    if day_night():
-        tmp03n = 55
-    else: 
-        tmp03n = 40
-    if -1 < read_tmp1() < 5:
-        tmp03 = tmp03n + 5
-    elif -6 < read_tmp1() <-1:
-        tmp03 = tmp03n + 10
-    elif read_tmp1() < -6:
-        tmp03 = tmp03n + 15
-    else:
-        tmp03 = tmp03n 
-    return tmp03
-
 def temp_dif():
-	tmpdiff = get_tmp3() - read_tmp2();
+	tmpdiff = tmp03 - read_tmp2();
 	return tmpdiff;
-
-
-# Determine night or day
-
-def day_night(tz='Europe/Prague'):
-    tz = pytz.timezone(tz)
-    time_now = datetime.datetime.now(tz).time()
-
-    #here we could apply any timezone according shop geo location
-    time_day = datetime.time(5, 10, tzinfo=tz)
-    time_night = datetime.time(22, 30, tzinfo=tz)
-
-    is_day = False
-
-    if time_now >= time_day and time_now <= time_night:
-        is_day = True
-#        print ("day")
-        return is_day
 
 #Main code
 a = 0
@@ -116,8 +85,11 @@ while (a is 0):
     else: 
         print ("switching heat off")
         p.ChangeDutyCycle(0)
+
     print ("outputline temp is %d" % read_tmp2())
     print ("outside temp is %d" % read_tmp1())
-    print ("desired temp is %d" % get_tmp3())
+    print ("desired temp is %d" % tmp03)
     print ("diff temp is %d" % temp_dif())
-    time.sleep(320)
+
+
+time.sleep(5)
