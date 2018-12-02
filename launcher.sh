@@ -4,5 +4,5 @@
 
 cd /
 cd home/pi/
-sudo python3 kotel3_db.py
+sudo python3 kotel4_db.py
 cd /

@@ -63,7 +63,7 @@ def read_tmp2():
 
 def get_tmp3():
     if day_night():
-        tmp03n = 55
+        tmp03n = 50
     else: 
         tmp03n = 40
     if -1 < read_tmp1() < 5:
@@ -95,6 +95,33 @@ def log_temperature(tmp02):
 
     conn.close()
 
+
+#read input temp
+def log_temperature3(tmp03):
+
+    conn=sqlite3.connect('templog.db')
+    curs=conn.cursor()
+
+    curs.execute("INSERT INTO temps3 values(datetime('now'), (?))", (tmp03,))
+
+    # commit the changes
+    conn.commit()
+
+    conn.close()
+
+
+#read outside temp
+def log_temperature1(tmp01):
+
+    conn=sqlite3.connect('templog.db')
+    curs=conn.cursor()
+
+    curs.execute("INSERT INTO temps1 values(datetime('now'), (?))", (tmp01,))
+
+    # commit the changes
+    conn.commit()
+
+    conn.close()
 
 
 # Determine night or day
@@ -142,4 +169,6 @@ while (a is 0):
     print ("desired temp is %d" % get_tmp3())
     print ("diff temp is %d" % temp_dif())
     log_temperature(read_tmp2())
-    time.sleep(120)
+    log_temperature3(get_tmp3())
+    log_temperature1(read_tmp1())
+    time.sleep(320)

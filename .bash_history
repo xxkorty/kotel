@@ -737,3 +737,189 @@ mkdir logs\
 mkdir logs
 sudo crontab -e
 sudo reboot
+sqlite
+sqlite3 templog.db
+git status
+git push
+git status
+git add -A
+git comit -a -m
+y
+git commit -a -m
+git commit -a
+git push
+
+sqlite
+sqlite3
+sqlite3 templog.db
+ls
+mkdir server
+sudo mount -t cifs -o username=korty,password=lucinda //192.168.5.115/data_disk/Temp/kotel
+ls
+sudo mount -t cifs -o username=korty,password=lucinda //192.168.5.115/data_disk/Temp/kotel /home/pi/server
+cp templog.db ~/server
+ls
+cd server
+ls
+cd ..
+sudo nano kotel3_db.py
+git push
+git add -A
+git push
+git push origin running
+ls
+git add -A
+git commit -a -m "added nr 4 for kotel"
+git push
+sudo nano kotel4_db.py
+nano launcher.sh
+
+sudo nano /etc/fstab
+sudo reboot
+nano launcher.sh
+chmod 755 cp.sh
+sudo crontab -e
+sqlite templog.db
+sqlite3 templog.db
+sudo python3 kotel4_db.py
+sqlite3 templog.db
+sudo nano kotel4_db.py
+sudo python3 kotel4_db.py
+cd server
+ls
+cd ..
+sqlite3 templog.db
+sudo nano /etc/fstab
+sqlite
+sqlite3 templog.db
+sudi reboot
+sudo reboot
+cd server
+ls
+sudo nano /etc/fstab
+sudo reboot
+cd server
+ls
+sudo mount -t cifs -o username=korty,password=lucinda //192.168.5.115/data_disk/Temp/k
+ls
+cd ..
+ls
+cd server
+ls
+cd ..
+sudo sudo kotel4_db.py
+sudo nano kotel4_db.py
+ls
+cp.sh
+chmod +x cp.sh
+chmod +x launcher.sh
+./cp.sh
+sudo reboot
+cd server
+ls
+cd ..
+touch templog.db
+ls
+stat temlog.db
+stat templog.db
+cd server
+ls
+cd ..
+sudo mount -t cifs -o username=korty,password=lucinda //192.168.5.115/data_disk/Temp/k
+sudo mount -t cifs -o username=korty,password=lucinda //192.168.5.115/data_disk/Temp/kotel /home/pi/server
+sudo contab -e
+sudo crontab -e
+sqlite3 templog.db
+./cp.sh
+sudo crontab -e
+ls
+cd server
+ls
+cd ..
+cd logs
+ls
+nano cronlog
+sudo crontab -e
+ls
+nano cronlog
+cd .
+./cp.sh
+cd ..
+./cp.sh
+sudo crontab -e
+ls
+cd logs
+ls
+nano cronlog
+cd ..
+sudo ./cp.sh
+./cp.sh
+sudo chown root cp.sh
+sudo ./cp.sh
+./cp.sh
+sudo ./cp.sh
+nano cp.sh
+sudo nano cp.sh
+sudo ./cp.sh
+sudo /home/pi/cp.sh
+sudo nano cp.sh
+sudo chmod +x coop.sh
+sudo crontab -e
+sudo /home/pi/coop.sh
+coop.sh
+cd ..coop.sh
+cd ..
+ls
+cd pi
+ls
+cd bin
+cd ..
+ls
+cd bin
+ls
+cd ..
+ls
+cd sbin
+ls
+cd ..
+ls
+cd usr
+ls
+cd bin
+ls
+cp /home/pi/coop.sh ./
+sudo cp /home/pi/coop.sh ./
+coop.sh
+cd ..
+cd ~
+coop.sh
+sudo coop.sh
+sudo crontab -e
+cd ..
+cd usr
+cd bin
+ls
+ls coo*
+sudo chmod +x coop.sh
+sudo coop.sh
+coop.sh
+cd ~
+sqlite3 temlog.db
+sqlite3 templog.db
+sudo nano cp.sh
+cp.sh
+./cp.sh
+sudo ./cp.sh
+sudo nano /usr/bin/coop.sh
+df
+ls
+sqlite3 temlog.db
+sqlite3 templog.db
+ps aux | less
+sqlite3 templog.db
+top
+nhtop
+htop
+sudo apt-get install htop
+htop
+sudo reboot
